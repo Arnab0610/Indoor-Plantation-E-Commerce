@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Indoor Plantation E-Commerce </title>
+    <!-- favicon icon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet"/>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /> -->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="css/preloader.css">
+    <!-- manu -->
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link rel="stylesheet" href="css/manu.css">
+    
+    <!-- dark -->
+
+    <link rel="stylesheet" href="css/dark.css">
+
+    <!-- Testimonials -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+    <link rel="stylesheet" href="css/Testimonials.css">
+
+
+    <!--Service -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/Service.css">
+    <!-- footer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/footer.css">
+
+
+    <!-- chatbot -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="css/chatbot.css">
+
+    <!-- boton -->
+    <link rel="stylesheet" href="css/boton.css">
+    <!-- responsive -->
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+<body>
+
+    <div class="preloader">
+        <div class="preloader-circle"></div>
+        <div class="preloader-img">
+            <img src="images/leaf.png" alt="">
+        </div>
+    </div>
+
+
+    <header id="header">
+        <div class="logo">
+            <a href="#"><img id="lol" src="images/HPS-corelogo-1-WHITE_875x201.webp" alt=""></a>
+        </div>
+
+        <div class="navbar container">
+            <div class="navbar__left">
+              <div class="burger" id="burger">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+              </div>
+            </div>
+            <div class="navbar__center">
+              <span class="overlay"></span>
+              <div class="menu" id="menu">
+                <div class="menu__header">
+                  <span class="menu__arrow"><i class="bx bx-chevron-left"></i></span>
+                  <span class="menu__title"></span>
+                </div>
+                <ul class="menu__inner active">
+                  <li class="menu__item"><a href="#" class="menu__link">HOME</a></li>
+                  <li class="menu__item menu__dropdown">
+                    <a href="#" class="menu__link">
+                        PRODUCTS
+                      <i class="bx bx-chevron-right"></i>
+                    </a>
+                    <div class="submenu megamenu__text">
+                      <div class="submenu__inner">
+                        <h4 class="submenu__title">Category</h4>
+                        <ul class="submenu__list">
+                          <li><a href="#">Specialty Plants & Herbs</a></li>
+                          <li><a href="#">Flowering Plants</a></li>
+                          <li><a href="#">Low Maintenance Plants</a></li>
+                          <li><a href="#">Air Purifying Plants</a></li>
+                          <li><a href="#">Low Light Plants</a></li>
+                          <li><a href="#">Cacti & Succulents</a></li>
+                          <li><a href="#">Hanging Plants</a></li>
+                        </ul>
+                      </div>
+                      <div class="submenu__inner">
+                        <h4 class="submenu__title">Product</h4>
+                        <ul class="submenu__list">
+                          <li><a href="#">Medicinal & Aromatic Plants</a></li>
+                          <li><a href="#">Pet Friendly Plants</a></li>
+                          <li><a href="#">Plant Bundles & Seeds</a></li>
+                          <li><a href="#">New Arrivals</a></li>
+                          <li><a href="#">Pots & Planters</a></li>
+                          <li><a href="#">Shop By Name</a></li>
+                          <li><a href="#">Shop By Location</a></li>
+                        </ul>
+                      </div>
+                  </li>
+                  <li class="menu__item menu__dropdown">
+                    <a href="#" class="menu__link">EXPLORE
+                      
+                      <i class="bx bx-chevron-right"></i>
+                    </a>
+                    <div class="submenu megamenu__image">
+                      <div class="submenu__inner">
+                        <a href="#">
+                          <img src="images/images.jpeg" class="submenu-image" alt="">
+                          <span class="submenu__title">Home indoor plant</span>
+                        </a>
+                      </div>
+                      <div class="submenu__inner">
+                        <a href="#">
+                          <img src="images/green office plants.jpg" class="submenu-image" alt="">
+                          <span class="submenu__title">office indoor plant</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="menu__item menu__dropdown">
+                    <a href="#" class="menu__link">
+                        ESSENTIALS
+                      <i class="bx bx-chevron-right"></i>
+                    </a>
+                    <div class="submenu megamenu__normal">
+                      <ul class="submenu__list">
+                            <li><a href="#">Potting Mix & Fertilizers</a></li>
+                            <li><a href="#">Garden Decor & Accessories</a></li>
+                            <li><a href="#">Watering Tools & Accessories</a></li>
+                            <li><a href="#">Climate Control Systems</a></li>
+                            <li><a href="#">Pest & Disease Control</a></li>
+                            <li><a href="#">Video Consultation</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="menu__item menu__dropdown">
+                    <a href="#" class="menu__link">
+                        BLOG
+                      <i class="bx bx-chevron-right"></i>
+                    </a>
+                    <div class="submenu megamenu__normal">
+                      <ul class="submenu__list">
+                        <li> <a href="#">Gardening Basics</a></li>
+                        <li><a href="#">Garden Maintenance</a></li>
+                        <li><a href="#">Kitchen Gardening</a></li>
+                        <li><a href="#">Ornamental Gardening</a></li>
+                        <li><a href="#">Green Lifestyle</a></li>
+                    </div>
+                  </li>
+                  <!-- <li class="menu__item menu__dropdown ">
+                    <a href="#" class="menu__link">
+                        FAQ's
+                        <i class="bx bx-chevron-right"></i>
+                    </a>
+                    <div class="submenu megamenu__normal">
+                      <ul class="submenu__list">
+                            <li><a href="#">Environment Day Gifting</a></li>
+                            <li><a href="#">Corporate/Bulk Gifting</a></li>
+                            <li><a href="#">Personalised Gifting</a></li>
+                            <li><a href="#">Best-Selling Plant Gifts</a></li>
+                            <li><a href="#">Seasonal Gifts</a></li>
+                            <li><a href="#">Gift Cards</a></li>
+                            <li><a href="#">Gift Wrapping Options</a></li>
+                    </div>
+                
+                </li> -->
+                <li class="menu__item menu__dropdown ">
+                    <a href="#" class="menu__link">
+                        GIFTS
+                        <i class="bx bx-chevron-right"></i>
+                    </a>
+                    <div class="submenu megamenu__normal">
+                      <ul class="submenu__list">
+                        <li><a href="#">Environment Day Gifting</a></li>
+                        <li><a href="#">Corporate/Bulk Gifting</a></li>
+                        <li><a href="#">Personalised Gifting</a></li>
+                        <li><a href="#">Best-Selling Plant Gifts</a></li>
+                        <li><a href="#">Seasonal Gifts</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Gift Wrapping Options</a></li>
+                    </div>
+                
+                </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+
+        
+
+
+        <div class="social-box">
+            <div class="search-box">
+                <button class="btn-search"><i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <input type="text" class="input-search" placeholder="Type to Search...">
+              </div>
+
+
+
+            <div class="user">
+                <a href="#" >
+                    <i class="fa-solid fa-user-large"></i>
+                </a>
+            </div>
+
+            <div class="heart">
+                <a href="#">
+                    <i class="fa-solid fa-heart"></i>
+                </a>
+            </div>
+
+
+            <div class="cart">
+
+                    <a href="#">
+                        <i class="fa fa-shopping-cart"></i>
+                    </a>
+            </div>
+        </div>
+
+
+    </header>
+
+
+    <div class="nav__btns"data-aos="fade-up"
+    data-aos-duration="3000">
+        <!-- Theme change button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+    </div>
+
+<!-- chatbot -->
+<div class="floating-chat" data-aos="fade-up"
+data-aos-duration="3000">
+    <i class="fa fa-comments" aria-hidden="true"></i>
+    <div class="chat">
+        <div class="header">
+            <span class="title">
+                what's on your mind?
+            </span>
+            <button>
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+                         
+        </div>
+        <ul class="messages">
+            
+        </ul>
+        <div class="footer">
+            <div class="text-box" contenteditable="true" disabled="true"></div>
+            <button id="sendMessage">send</button>
+        </div>
+    </div>
+</div>
+
+
+    <div class="big-bg" id="home" class="creative-parallax--slider">
+        <div class="slider-inner">
+			<div class="slider-row">
+				<div class="parallax-slider slider-wrap">
+					<div class="swiper-wrapper">
+						<!-- Slide 1 -->
+						<div class="swiper-slide" style="background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(images/evergreen-plant.jpg);">
+							<div class="swiper-slide--inner">
+								<div class="slide--bg">
+									<div class="slide-bg--inner"></div>
+								</div>
+								<div class="slide-detail">
+									<div class="slide-main--subheading">
+										<!-- <span><i class="fa-solid fa-award"></i> On demand live support</span> -->
+									</div>
+									<div class="slide-main--heading">
+										<div class="from-left">Home with Indoor</div>
+										<div class="from-right">Plants</div>
+									</div>
+									<div class="slide-des">
+										<!-- <p>We're a fully dedicated corporate service agency collaborating with brands
+										all over the world.</p> -->
+
+
+									</div>
+									<div class="bg-link">
+										<a href="#" class="slide-btn gradient-btn">Get Started Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+									</div>
+									<!-- <div class="slide-badge">
+										<span class="patch-check"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638l-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89l-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622l-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01l.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637l.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89l.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622l.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01zm.287 5.984l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708"/></svg></span>
+										<span class="badge-heading">Decided Quality</span>
+									</div> -->
+								</div>
+							</div>
+						</div>
+						<!-- Slide 2 -->
+						<div class="swiper-slide" style="background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('images/https---www.thespruce.com-best-houseplants-for-sun-4147670-2-8ec2c6cc6c784f80aa1013beadb35a35.jpg');">
+							<div class="swiper-slide--inner">
+								<div class="slide--bg">
+									<div class="slide-bg--inner"></div>
+								</div>
+								<div class="slide-detail">
+									<div class="slide-main--subheading">
+										<!-- <span><i class="fa-solid fa-award"></i> On demand live support</span> -->
+									</div>
+									<div class="slide-main--heading">
+										<div class="from-left">Plant big sale </div>
+										<div class="from-right">special offer</div>
+									</div>
+									<div class="slide-des">
+										<p>We're a fully dedicated corporate service agency collaborating with brands
+										all over the world.</p>
+									</div>
+									<div class="bg-link">
+
+                                        <a href="#" class="slide-btn gradient- ">shop Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+									</div>
+									<!-- <div class="slide-badge">
+										<span class="patch-check"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638l-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89l-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622l-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01l.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637l.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89l.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622l.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01zm.287 5.984l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708"/></svg></span>
+										<span class="badge-heading">50% off</span>
+									</div> -->
+								</div>
+							</div>
+						</div>
+						<!-- Slide 3 -->
+						<div class="swiper-slide" style="background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('images/living-room-with-green-walls-green-wall-with-plants-it-min.jpg');">
+							<div class="swiper-slide--inner">
+								<div class="slide--bg">
+									<div class="slide-bg--inner"></div>
+								</div>
+								<div class="slide-detail">
+									<!-- <div class="slide-main--subheading">
+										<span><i class="fa-solid fa-award"></i> On demand live support</span>
+									</div> -->
+									<div class="slide-main--heading">
+										<div class="from-left">Create a tropical  </div>
+										<div class="from-right">interior in your home</div>
+									</div>
+									<div class="slide-des">
+										<p>We use natural flexible and stable ceramic pots that are naturally flexible and stable in production.</p>
+									</div>
+									<div class="bg-link">
+										<a href="#" class="slide-btn gradient-btn">Check more products <span><i class="fa-solid fa-arrow-right"></i></span></a>
+									</div>
+									<!-- <div class="slide-badge">
+										<span class="patch-check"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638l-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89l-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622l-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01l.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637l.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89l.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622l.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01zm.287 5.984l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708"/></svg></span>
+										<span class="badge-heading">Decided Quality</span>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-next slide-btns"></div>
+					<div class="swiper-button-prev slide-btns"></div>
+					<div class="autoplay-progress">
+						<div class="progress-fill"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+
+    <!--banner section start-->
+		<div class="banner-container">
+			<div class="banner" >
+				<img src="images/banner1.jpg" data-aos="zoom-in" alt="">
+				<div class="content">
+					<span>New arrivals</span>
+					<h3>House plants</h3>
+					<a href="#" class="btn2">Shop now</a>
+				</div>
+			</div>
+			<div class="banner">
+				<img src="images/banner2.jpg" data-aos="zoom-in" alt="">
+				<div class="content">
+					<span>New arrivals</span>
+					<h3>Office plants</h3>
+					<a href="#" class="btn2">Shop now</a>
+				</div>
+			</div>
+
+		</div>
+		<!--banner section ends-->
+
+        <!-- best-selling -->
+    <div class="best-selling">
+        <div class="best-selling-content">
+          <h2>Best Selling Plants</h2>
+          <p class="color">Easiest way to healthy life by buying your favorite plants</p>
+          <button class="btn">
+            See more <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+
+        <div class="products">
+          <img src="images/product1.png" alt="" />
+          <div>
+            <h5>Natural Plants</h5>
+            <p class="color">Rs. 1,400.00</p>
+          </div>
+        </div>
+        <div class="products">
+          <img src="images/product2.png" alt="" />
+          <div>
+            <h5>Artificial Plants</h5>
+            <p class="color">Rs. 900.00</p>
+          </div>
+        </div>
+        <div class="products">
+          <img src="images/product8.png" alt="" />
+          <div>
+            <h5>Natural Plants</h5>
+            <p class="color">Rs. 1,500.00</p>
+          </div>
+        </div>
+        <!-- <div class="products">
+            <img src="images/product8.png" alt="" />
+            <div>
+              <h5>Natural Plants</h5>
+              <p class="color">Rs. 1,500.00</p>
+            </div>
+          </div> -->
+    </div>
+
+      <!-- start section four  -->
+    <section>
+    <div class="product" id="features">
+        <div class="product-title">
+            <p class="color">
+                browse our items
+            </p>
+            <h2>
+                New products
+            </h2>
+            <!-- <hr> -->
+            <div class="underline2"><span></span></div>
+        </div>
+        <div class="product-flex">
+            <div class="product-one">
+                <div class="product-image">
+                    <img src="images/product1.jpg" alt="">
+                    <div class="overlay2">
+                        <i class="fas fa-shopping-bag ba-color"></i>
+                        <i class="far fa-heart h-heart ba-color"></i>
+                        <i class="fas fa-search co-search ba-color"></i>
+                    </div>
+                </div>
+                <div class="content2">
+                    <div class="left">
+                        <h4>
+                            Spark Plant
+                        </h4>
+                    </div>
+                    <div class="right">
+                        <section>Rs.144.00</section>
+                    </div>
+                </div>
+                <article>latest plants</article>
+            </div>
+
+
+            <div class="product-one">
+                <div class="product-image">
+                    <img src="images/product2.jpg" alt="">
+                    <div class="overlay2">
+                        <i class="fas fa-shopping-bag ba-color"></i>
+                        <i class="far fa-heart h-heart ba-color "></i>
+                        <i class="fas fa-search co-search ba-color"></i>
+                    </div>
+                </div>
+                <div class="content2">
+                    <div class="left">
+                        <h4>
+                            Sprout Plant
+                        </h4>
+                    </div>
+                    <div class="right">
+                        <section>Rs.116.00</section>
+                    </div>
+                </div>
+                <article>latest plants</article>
+            </div>
+
+
+            <div class="product-one">
+                <div class="product-image">
+                    <img src="images/product3.jpg" alt="">
+                    <div class="overlay2">
+                        <i class="fas fa-shopping-bag ba-color"></i>
+                        <i class="far fa-heart h-heart ba-color"></i>
+                        <i class="fas fa-search co-search ba-color"></i>
+                    </div>
+                </div>
+                <div class="content2">
+                    <div class="left">
+                        <h4>
+                            Floral Plant
+                        </h4>
+                    </div>
+                    <div class="right">
+                        <section>Rs.153.00</section>
+                    </div>
+                </div>
+                <article>latest plants</article>
+            </div>
+
+
+            <div class="product-one">
+                <div class="product-image">
+                    <img src="images/product4.jpg" alt="">
+                    <div class="overlay2">
+                        <i class="fas fa-shopping-bag ba-color"></i>
+                        <i class="far fa-heart h-heart ba-color"></i>
+                        <i class="fas fa-search co-search ba-color"></i>
+                    </div>
+                </div>
+                <div class="content2">
+                    <div class="left">
+                        <h4>
+                            Herb Plant
+                        </h4>
+                    </div>
+                    <div class="right">
+                        <section>Rs.99.00</section>
+                    </div>
+                </div>
+                <article>latest plants</article>
+            </div>
+
+
+            <div class="product-one">
+                <div class="product-image">
+                    <img src="images/product5.jpg" alt="">
+                    <div class="overlay2">
+                        <i class="fas fa-shopping-bag ba-color"></i>
+                        <i class="far fa-heart h-heart ba-color"></i>
+                        <i class="fas fa-search co-search ba-color"></i>
+                    </div>
+                </div>
+                <div class="content2">
+                    <div class="left">
+                        <h4>
+                            Spider Plant
+                        </h4>
+                    </div>
+                    <div class="right">
+                        <section>Rs. 126.00</section>
+                    </div>
+                </div>
+                <article>latest plants</article>
+            </div>
+
+            <div class="product-one">
+                <div class="product-image">
+                    <img src="images/product6.jpg" alt="">
+                    <div class="overlay2">
+                        <i class="fas fa-shopping-bag ba-color"></i>
+                        <i class="far fa-heart h-heart ba-color"></i>
+                        <i class="fas fa-search co-search ba-color"></i>
+                    </div>
+                </div>
+                <div class="content2">
+                    <div class="left">
+                        <h4>
+                            Dracaena
+                        </h4>
+                    </div>
+                    <div class="right">
+                        <section>Rs.165.00</section>
+                    </div>
+                </div>
+                <article>latest plants</article>
+            </div>
+
+            <div class="product-one">
+                <div class="product-image">
+                    <img src="images/product7.jpg" alt="">
+                    <div class="overlay2">
+                        <i class="fas fa-shopping-bag ba-color"></i>
+                        <i class="far fa-heart h-heart ba-color"></i>
+                        <i class="fas fa-search co-search ba-color"></i>
+                    </div>
+                </div>
+                <div class="content2">
+                    <div class="left">
+                        <h4>
+                            Indian Basil
+                        </h4>
+                    </div>
+                    <div class="right">
+                        <section>Rs.120.00</section>
+                    </div>
+                </div>
+                <article>latest plants</article>
+            </div>
+
+            <div class="product-one">
+                <div class="product-image">
+                    <img src="images/product8.webp" alt="">
+                    <div class="overlay2">
+                        <i class="fas fa-shopping-bag ba-color"></i>
+                        <i class="far fa-heart h-heart ba-color"></i>
+                        <i class="fas fa-search co-search ba-color"></i>
+                    </div>
+                </div>
+                <div class="content2">
+                    <div class="left">
+                        <h4>
+                            Azalea Plant
+                        </h4>
+                    </div>
+                    <div class="right">
+                        <section>Rs.115.00</section>
+                    </div>
+                </div>
+                <article>latest plants</article>
+            </div>
+
+        </div>
+        <a href="#" class="boton">
+            View All <i class="fa-solid fa-right-long"></i>   
+        </a>
+    </div>
+   
+</section>
+    <!-- end section four  -->
+
+      <!-- start section five  -->
+       <div class="heading2">
+        <h2>Best Plant Collections</h2>
+        <div class="underline2"><span></span></div>
+
+       </div>
+
+      <div class="best-collections">
+        
+        <div class="container">
+            
+            <div class="collections-grid">
+                <div class="collection-item">
+                    <img src="images/nurserylive-g-top-5-cute-succulents.jpg" alt="Succulents Collection">
+                    <div class="collection-info">
+                        <h3>Succulents</h3>
+                        <p>Low-maintenance plants perfect for any space.</p>
+                        <a href="/succulents" class="btn">Shop Now</a>
+                    </div>
+                </div>
+                <div class="collection-item">
+                    <img src="images/nurserylive-combo-packs-plants-top-5-air-purifier-and-oxygen-enriching-plant-pack-16969387507852.jpg" alt="Air-Purifying Plants">
+                    <div class="collection-info">
+                        <h3>Air-Purifying Plants</h3>
+                        <p>Breathe easy with plants that clean the air.</p>
+                        <a href="/air-purifiers" class="btn">Shop Now</a>
+                    </div>
+                </div>
+                <div class="collection-item">
+                    <img src="images/nurserylive-flowering-plants-category-image-505581.jpg" alt="Flowering Plants Collection">
+                    <div class="collection-info">
+                        <h3>Flowering Plants</h3>
+                        <p>Bring color and life to your home with blooming plants.</p>
+                        <a href="/flowering-plants" class="btn">Shop Now</a>
+                    </div>
+                </div>
+                <!-- Add more collection items as needed -->
+            </div>
+        </div>
+    </div>
+
+    <!-- end section five  -->
+
+    <!-- categories section -->
+    <div class="categories">
+      <h2>Categories</h2>
+      <p class="color">Find what you are looking for</p>
+      <div class="underline2"><span></span></div>
+      <!-- single category -->
+      <div class="category-container">
+        <div class="row order-1">
+          <img src="images/natural-plants.svg" alt="" />
+          <h3>Natural Plants</h3>
+        </div>
+        <div class="row order-3">
+          <img src="images/plant-accessories.svg" alt="" />
+          <div>
+            <h3>Plant Accessories</h3>
+            <p>Available in various materials like ceramic, terracotta, and metal, these add a decorative touch.</p>
+            <a href="#" class="btn">Explore <i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="row order2">
+          <img src="images/artificial-plants.svg" alt="" />
+          <h3>Artificial Plants</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials -->
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="title">
+                <h5></h5>
+                <h2>What customers say about GREEMIND?</h2>
+                <div class="underline2"><span></span></div>
+            </div>
+            <div class="owl-carousel owl-theme testi">
+              <!-- Single Starts -->
+                                <div class="item">
+                  <div class="profile">
+                      <img src="images/souvik.jpg" alt="">
+                      <div class="information">
+                          <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                          </div>
+                          <p>Sauvik De</p>
+                          <span>Graphic design</span>
+                      </div>
+                    </div>
+                      <p> “GREEMIND’s platform is user-friendly and makes it so simple to contribute to reforestation projects. The impact reports they provide are detailed and reassuring. It feels great to be part of something that’s making a real difference.”</p>
+                      <div class="icon">
+                          <i class="fa fa-quote-right" aria-hidden="true"></i>
+                      </div>
+                </div>
+              <!-- Single Ends -->
+                <div class="item">
+                  <div class="profile">
+                      <img src="images/maimak.jpg" alt="">
+                      <div class="information">
+                          <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                          </div>
+                          <p>Mainak Bose</p>
+                          <span>Web Developer</span>
+                      </div>
+                    </div>
+                      <p>“I’ve been using GREEMIND for a few months now, and I’m really impressed with their commitment to planting trees and supporting environmental causes. The process was easy to follow, and I love getting updates on the trees I’ve helped plant.” </p>
+                      <div class="icon">
+                          <i class="fa fa-quote-right" aria-hidden="true"></i>
+                      </div>
+                </div>
+                <div class="item">
+                  <div class="profile">
+                      <img src="images/joydeep.jpg" alt="">
+                      <div class="information">
+                          <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                          </div>
+                          <p>Joydeep Maity </p>
+                          <span>VFX Artist</span>
+                      </div>
+                    </div>
+                      <p>“The customer service at GREEMIND is fantastic. Whenever I had questions or needed assistance, their team was prompt and helpful. Plus, the transparency about where my donations go is very reassuring.” </p>
+                      <div class="icon">
+                          <i class="fa fa-quote-right" aria-hidden="true"></i>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="section-header">
+        <h2>Our Services</h2>
+        <!-- <p>Lorem ipsum dolor sit amet</p> -->
+    </div>
+    <div class="underline2"><span></span></div>
+    <div class="container3">
+        <div class="box">
+            <div class="icons">
+                <i class="fa-solid fa-truck"></i>
+            </div>
+            <!-- <div class="haading"> -->
+                <h3>Free Shipping</h3>
+
+            <!-- </div> -->
+            <!-- <div> -->
+                <p>Capped at RS.319/- per order</p>
+            <!-- </div> -->
+            
+        </div>
+        <div class="box">
+            <span></span>
+            <div class="icons">
+                <i class="fa-regular fa-credit-card"></i>
+            </div>
+            <h3>Safe Payment</h3>
+            <p>With our payment gateway</p>
+        </div>
+        <div class="box">
+            <span></span>
+            <div class="icons">
+                <i class="fa-solid fa-tag"></i>
+            </div>
+            <h3>Big Offers</h3>
+            <p>We give best offers surely</p>
+        </div>
+    </div>
+<!--  footer -->
+     <footer>
+        <div class="container6">
+            <div class="footer-col">
+                <img src="images/HPS-corelogo-1-WHITE_875x2012-1.webp" class="image"alt="logo">
+                <p class="footer-para">
+                    Trees are important to us in a lot of ways and we cannot ignore their importance. They are important because they give us fresh air to breathe, food to eat and shelter/shade from sunlight and rainfall. Besides this, there are many medicines in the market that are made up of trees extracts.
+                </p>
+            </div>
+            <div class="footer-col">
+                <h3 class="text-office">
+                    Office
+                    <div class="underline"><span></span></div>
+                </h3>
+
+                <p class="email">Email:- info.finegap@gmail.com</p>
+                <p class="phone">help line number:- +91 304 110 0028</p>
+            </div>
+            <div class="footer-col">
+                <h3>
+                    Menu
+                    <div class="underline"><span></span></div>
+                </h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">products</a></li>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Essntils</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Gifts</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>
+                    Newsletter
+                    <div class="underline"><span></span></div>
+                </h3>
+                <form action="">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" placeholder="Enter Company Email" class="text">
+                    <a href=""><i class="fa-solid fa-arrow-right"></i></a>
+                </form>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook icon-color"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="cp-text">
+            © Copyright 2024 Arena Animation. All rights reserved.
+    </footer>
+
+
+
+
+
+
+
+  
+  
+        
+
+
+    <script src="js/main.js"></script>
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    <!-- <script src='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js'></script> -->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+
+    <script src="js/app.js"></script>
+    <script  src="js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="js/script2.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
+
+      <!-- ##### All Javascript Files ##### -->
+    <script src="js/preloader.js"></script>
+
+    <script src='https://cdn.jsdelivr.net/npm/x-mega-menu@1.4.1/dist/x-mega-menu.min.js'></script>
+
+    <script  src="js/manu.js"></script>
+
+    <!-- dark -->
+    <script src="js/dark.js"></script>
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="js/scrollreveal.min.js"></script>
+
+    <!--Testimonials -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'>
+    </script>
+    <script  src="js/Testimonials.js"></script>
+  	
+
+<!-- chatbot -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script  src="js/chatbot.js"></script>
+
+
+<!-- boton -->
+
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="js/boton.js"></script>
+
+<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+
+</body>
+</html>

@@ -1,0 +1,603 @@
+/*---------Responsive Design for Desktop----------------*/
+
+@media screen and (max-width:1024px) and (min-width:992px)
+{
+.logo{
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+}
+
+
+.social-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  width: 100%;
+  margin-top: -18%;
+}
+
+.search-box {
+  position: relative;
+  right: 7%;
+  }
+.best-selling {
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 6%;
+  padding: 10px 30px;
+  }
+
+  .product-flex .product-one {
+  width: 23%;
+  margin-bottom: 20px;
+  margin: 20px 1%;
+  }
+
+  .collection-item {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 293px;
+  text-align: center;
+  }
+
+  .category-container {
+    min-height: 29vh;
+    background: #bfe4a9;
+    display: flex;
+    align-items: start;
+    padding: 48px 96px;
+    gap: 48px;
+    justify-content: space-around;
+    margin-top: 123px;
+  }
+  section {
+    margin: 2px 0;
+ 
+  }
+  .left{width: 98%; margin: 5px auto; text-align: left;}
+  .right{width: 98%; margin: 5px auto; text-align: left;}
+
+  .testimonials {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-top: 0%;
+    color: #fff;
+  }
+
+  .box p {
+    color: #000000;
+    font-size: 9px;
+    margin: -30px 16%;
+    margin-top: -13%;
+    margin-left: 27%;
+  }
+
+  .box h3 {
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 8px 3%;
+  }
+
+    .box {
+    padding:0 ;
+    padding-left: 10px;
+    padding-top: inherit;
+  }
+
+  .icons .fa-truck {
+    font-size: 27px;
+    margin: 25% auto;
+    color: black;
+  }
+
+  .icons {
+    width: 53px;
+    height: 53px;
+    background: #fff;
+    margin: 4px;
+    border-radius: 50px;
+  }
+
+  .icons .fa-credit-card {
+    font-size: 27px;
+    margin: 25% auto;
+    color: black;
+  }
+  .icons .fa-tag {
+    font-size: 27px;
+    margin: 25% auto;
+    color: black;
+  }
+
+  .nav__btns {
+    position: fixed;
+    /* top: 711px; */
+    left: 93%;
+    width: 61px;
+    border-radius: 50%;
+    height: 61px;
+    background: #e3f5d8;
+    bottom: 92px;
+    z-index: 99999;
+    font-size: 46px;
+  }
+
+  .image {
+    width: 71%;
+  }
+
+  p.email {
+    font-size: inherit;
+  }
+  p.phone{
+    font-size: inherit;
+  }
+  .footer-para {
+    font-size: inherit;
+  }
+  
+}
+/*---------Responsive Design for Tab----------------*/
+/* comp */
+@media screen and (max-width:991px) and (min-width:768px)
+{
+  p.email {
+    font-size: inherit;
+  }
+  p.phone{
+    font-size: inherit;
+  }
+  .footer-para {
+    font-size: inherit;
+  }
+
+.logo{
+  width: 20%;
+  /* text-align: center; */
+}
+header ul li {
+  margin: 0px 5px;
+}
+.submenu{left: 100%;}
+
+.product {
+  width: 95%;
+  margin: 100px auto;
+}
+.nav__btns{
+  bottom: 76px;
+}
+.container6 {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 7%;
+  flex-wrap: wrap;
+ }
+.footer-col {
+  width: 50%;
+  margin: 2% -3%;
+ }
+    
+.category-container {
+  min-height: 69vh;
+  background: #bfe4a9;
+  display: flex;
+  align-items: start;
+  padding: 48px 96px;
+  gap: 48px;
+  justify-content: space-around;
+  margin-top: 69px;
+  }
+  .left{width: 48%; margin: 5px auto;}
+  .right{width: 48%; margin: 5px auto;}
+
+
+
+  .icons {
+    width: 53px;
+    height: 53px;
+    background: #fff;
+    margin: 4px;
+    border-radius: 50px;
+  }
+  
+  .icons .fa-truck {
+    font-size: 27px;
+    margin: 25% auto;
+    color: black;
+  }
+  .icons .fa-credit-card {
+    font-size: 27px;
+    margin: 25% auto;
+    color: black;
+  }
+  .icons .fa-tag {
+    font-size: 27px;
+    margin: 25% auto;
+    color: black;
+  }
+  .box h3 {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0% 4%;
+  }
+  
+  .box p {
+    color: #000000;
+    font-size: 10px;
+    margin: -29px 0%;
+    width: 100%;
+  }
+  
+  
+  
+  .image {
+    width: 65%;
+  }
+  
+  .footer-para {
+    max-width: 250px;
+    margin: 7% 0;
+    font-size: 20px;
+  }
+
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 65px;
+    margin: 0% 0%;
+  }
+  .search-box {
+    position: relative;
+    right: 66%;
+  }
+
+  .social-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: end;
+    width: 100%;
+    margin-top: -20%;
+    padding: inherit;
+  }
+  .btn-search {
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: -481px;
+    top: -4px;
+    background-color: transparent;
+    pointer-events: painted;
+  }
+  .user {
+   right: 0;
+  }
+  .heart {
+    position: relative;
+    right: 0;
+    /* background-color: white; */
+    height: 40px;
+    width: 40px;
+    transition: transform 0.3s ease;
+    /* border-radius: 50%; */
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .cart {
+    position: relative;
+     right:0;
+    /* background-color: white; */
+    height: 40px;
+    width: 40px;
+    transition: transform 0.3s ease;
+    /* border-radius: 50%; */
+    font-size: 15px;
+    text-align: center;
+  }
+  p.email .phone {
+    font-size: inherit;
+  }
+}
+
+
+
+
+
+
+
+/*---------Responsive Design for Smartphone----------------*/
+
+@media screen and (max-width:765px) and (min-width:576px)
+{
+.social-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: end;
+  margin: 0 -6%;
+}
+
+
+
+.category-container {
+  min-height: 25vh;
+  background: #bfe4a9;
+  display: flex;
+  align-items: start;
+  padding: 50px 57px;
+  gap: 17px;
+  justify-content: space-around;
+  margin-top: 69px;
+}
+
+.footer-para {
+  max-width: fit-content;
+  margin: 7% 0;
+}
+
+    /* .order-1{order: 1;}
+    .order-2{order: 2;}
+    .order-3{order: 3;} */
+    .logo {
+      order: 2; 
+      width: 80%; 
+      padding-left: 75px;
+    } 
+    .navbar {order: 1;}
+    .social-box{order: 3;}
+    .social-box {
+      margin: 0 -6%;
+      width: 100%;
+    }
+    .navbar {
+      width: 20% !important;
+    }
+    .container {
+      max-width: 75rem;
+      height: auto;
+      margin-inline: none;
+      padding-inline: .5rem;
+    }
+
+    .cart {
+      
+      right: 0;
+    }
+
+    .heart {
+      
+      right: 0;
+    }
+    .user{
+      right: 0;
+    }
+
+    .best-selling-content {
+      width: 90%;
+    }
+  .icons .fa-truck {
+    font-size: 25px;
+    margin: 25% auto;
+    color: black;
+    }
+
+  .icons .fa-credit-card {
+    font-size: 25px;
+    margin: 25% auto;
+    color: black;
+    }
+
+  .icons .fa-tag {
+    font-size: 25px;
+    margin: 25% auto;
+    color: black;
+  }
+
+  .search-box {
+    position: relative;
+    right: 41%;
+  }
+  .btn-search {
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: -235px;
+    top: -2px;
+    background-color: transparent;
+    pointer-events: painted;
+  }
+  p.email {
+    font-size: inherit;
+  }
+  p.phone{
+    font-size: inherit;
+  }
+  .footer-para {
+    font-size: inherit;
+  }
+}
+
+/*---------Responsive Design for Small Smartphone----------------*/
+
+@media screen and (max-width:575px) and (min-width:320px)
+{
+
+  .search-box {
+    position: relative;
+    right: -2%;
+  }
+   .row:nth-child(3) {
+    margin-top: -48px;
+    margin-bottom: 82px;
+  }
+  .icons .fa-truck {
+    font-size: 24px;
+  }
+
+  .icons .fa-credit-card {
+    font-size: 24px;
+    margin: 25% auto;
+    color: black;
+  }
+  .icons .fa-tag {
+    font-size: 24px;
+    margin: 25% auto;
+    color: black;
+  }
+
+  .row {
+    width: 356px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    transition: all 0.45s ease;
+  }
+  h2 {
+    font-size: 20px;
+    /* font-weight: lighter; */
+    line-height: normal;
+    margin-bottom: -4px;
+  }
+
+  .box p {
+    color: #000000;
+    font-size: 10px;
+    margin: -29px 22%;
+    margin-left: 22%;
+    margin-left: 23%;
+    width: 100%;
+  }
+
+  .testimonials .title h2 {
+    color: #a9a9a9;
+    line-height: 1.2em;
+    font-weight: 400;
+    font-size: 27px;
+    letter-spacing: -1px;
+    margin: 0;
+  }
+
+  .category-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: start;
+    padding: 30px 40px;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  .cart { width: 30px;
+    right: 0;
+
+  }
+  .user{
+    width: 30px;
+    right: 0;
+  }
+  .heart{
+    width: 30px;
+    right: 0;
+  }
+  
+  .order-1{
+    order: 1;
+  }
+  .order-2{order: 2;}
+  .order-3{order: 3;}
+  .logo {order: 2; width: 80%;}
+  .navbar {order: 1;}
+  .social-box{order: 3;}
+
+  .social-box {
+    width: 100%;
+  }
+  .container {
+    max-width: 75rem;
+    height: auto;
+    margin-inline: none;
+    padding-inline: .5rem;
+  }
+  .navbar {
+    width: 20% !important;
+  }
+
+  .icons .fa-truck {
+    font-size: 24px;
+  }
+
+  .section-header h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 29px;
+    margin: 0;
+  }
+
+  .underline2 {
+    width: 267px;
+    height: 3px;
+    position: relative;
+    background-color: #bfe4a9;
+    margin: 11px auto;
+      margin-bottom: 11px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .testimonials {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  .image {
+    width: 58%;
+  }
+  p.email {
+    font-size: inherit;
+  }
+  p.phone{
+    font-size: inherit;
+  }
+  .footer-para {
+    font-size: inherit;
+  }
+}

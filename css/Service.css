@@ -1,0 +1,137 @@
+.container3 {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px;
+	padding: 20px;
+}
+.section-header {
+	text-align: center;
+	margin-top: 2%;
+	color: #fff;
+}
+.section-header h2 {
+	/* font-family: "Bebas Neue", sans-serif; */
+	font-size: 45px;
+	margin: 0;
+}
+.section-header p {
+	margin: 0;
+}
+.box {
+	position: relative;
+	height: 100px;
+	background: #bfe4a9;
+	/* linear-gradient(45deg, #00ff33, #076c03); */
+	box-sizing: border-box;
+	padding: 12px;
+	transition: .5s;
+	overflow: hidden;
+	margin: 20px;
+	text-align: center;
+	border-radius: 10px;
+	transition: all 0.6s ease;
+	display: flex;
+	flex-wrap: wrap;
+}
+.box p {
+	color: #000000;
+	font-size: 12px;
+	margin: -29px 19%;
+}
+
+.box h3 {
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #000000;
+	margin: 0 6%;
+}
+
+.icons {
+	width: 65px;
+	height: 65px;
+	background: #fff;
+	margin: 4px;
+	border-radius: 50px;
+}
+.icons .fa-truck {
+	font-size: 35px;
+	margin: 25% auto;
+	color:black;
+}
+.icons .fa-credit-card {
+	font-size: 35px;
+	margin: 25% auto;
+	color:black;
+
+}
+.icons .fa-tag{
+	font-size: 35px;
+	margin: 25% auto;
+	color:black;
+
+}
+
+
+.box:before, .box:after {
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 0%;
+	border: 5px solid #fff;
+	opacity: 0;
+	transition: .5s;
+	box-sizing: border-box;
+}
+.box:before {
+	top: 0;
+	left: 0;
+	border-top-left-radius: 10px;
+}
+.box:after {
+	bottom: 0;
+	right: 0;
+	border-bottom-right-radius: 10px;
+}
+.box:hover:before, .box:hover:after {
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	transition-delay: .3s;
+}
+.box:hover {
+	box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+}
+.box span {
+	position: absolute;
+	top: 0;
+	left: -110%;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.3);
+	transition: .5s;
+	transform: skewX(10deg);
+}
+.box:hover span {
+	left: 110%;
+}
+.box:hover {
+	background-image: #bfe4a9;
+	/* linear-gradient(45deg, #00ff33, #076c03); */
+
+	/* background-image: linear-gradient(45deg, #b343cb, #180293); */
+	box-shadow: 0 2px 15px 5px rgba(0, 0, 0, 0.5);
+}
+/* @media (max-width: 1000px) {
+	.box {
+		padding: 25px;
+	}
+}
+@media (max-width: 600px) {
+	.box {
+		height: 0;
+		margin: 0;
+	  }
+	.box h3 {
+		font-size: 20px;
+	}
+} */
